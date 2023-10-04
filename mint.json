@@ -1,0 +1,57 @@
+{
+    "name": "Orderly Network",
+    "logo": {
+      "light": "/logo/light.png",
+      "dark": "/logo/dark.png"
+    },
+    "favicon": "/favicon.png",
+    "colors": {
+      "primary": "#aa5cf8",
+      "light": "#BE7CFF",
+      "dark": "#aa5cf8",
+      "anchors": {
+        "from": "#32cce1",
+        "to": "#aa5cf8"
+      }
+    },
+    
+    "modeToggle": {
+        "default": "dark"
+    },
+    "topbarCtaButton": {
+      "name": "Get a Grant",
+      "url": "https://forms.gle/ThhKdKQxsfQHASZ29"
+    },
+    "topbarLinks": [
+      {
+        "name": "Socials",
+        "url": "https://linktr.ee/orderlynetwork"
+      }
+    ],
+    "tabs": [
+        {
+            "name": "API References",
+            "url": "api-references"
+        },
+        {
+            "name": "Content",
+            "url": "content"
+        },
+        {
+            "name": "Blog",
+            "url": "https://your-website.com/blog"
+        }
+    ],
+    "navigation": [
+      {
+        "group": "",
+        "pages": [""]
+      }
+    ],
+    "footerSocials":
+      {
+          "twitter": "https://twitter.com/OrderlyNetwork",
+          "linkedin": "https://www.linkedin.com/company/orderly-network/",
+          "discord": "https://discord.gg/orderlynetwork"
+      }
+  }
