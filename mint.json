@@ -44,8 +44,39 @@
     ],
     "navigation": [
       {
-        "group": "",
-        "pages": [""]
+        "group": "Getting Started",
+        "pages": [
+          "getting-started/what-is-orderly-network",
+          "getting-started/our-mission",
+          "getting-started/roadmap"
+        ]
+      },
+      {
+        "group": "Build on Orderly",
+        "pages": [
+          "build-on-orderly/building-on-near",
+          "build-on-orderly/building-on-evm",
+          "build-on-orderly/supported-chains"
+        ]
+      },
+      {
+        "group": "Trade on Orderly",
+        "pages": [
+          "trade-on-orderly/trade-on-orderly",
+          "trade-on-orderly/perpetual-futures",
+          "trade-on-orderly/fee-structure",
+          "trade-on-orderly/supported-markets",
+          "trade-on-orderly/trading-guis"
+        ]
+      },
+      {
+        "group": "Learn More",
+        "pages": [
+          "faq",
+          "security",
+          "terms-of-service",
+          "privacy-policy"
+        ]
       }
     ],
     "footerSocials":
