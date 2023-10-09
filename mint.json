@@ -30,9 +30,13 @@
     ],
     "tabs": [
         {
-            "name": "Roadmap",
-            "url": "https://orderly.network/#roadmap"
-        }
+            "name": "NEAR API",
+            "url": "near-api"
+        },
+        {
+          "name": "EVM API",
+          "url": "evm-api"
+      }
     ],
     "navigation": [
       {
