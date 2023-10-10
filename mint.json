@@ -136,6 +136,29 @@
           "terms-of-service",
           "privacy-policy"
         ]
+      },
+      {
+        "group": "NEAR API",
+        "pages": [
+          "near-api/introduction",
+          "near-api/authentication",
+          "near-api/error-codes",
+          {
+            "group": "Websocket API",
+            "pages": [
+              "near-api/websocket-api/introduction",
+              "near-api/websocket-api/ping-pong",
+              "near-api/websocket-api/auth",
+              {
+                "group": "Public",
+                "pages": [
+                  "near-api/websocket-api/public/request-orderbook"
+                ]
+              }
+            ]
+          },
+          "near-api/release-notes"
+        ]
       }
     ],
     "footerSocials":
