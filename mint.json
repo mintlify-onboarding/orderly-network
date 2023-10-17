@@ -262,6 +262,113 @@
           },
           "near-api/release-notes"
         ]
+      },
+      {
+        "group": "EVM API ",
+        "pages": [
+          {
+            "group": "RESTful API",
+            "pages": [
+              "evm-api/introduction",
+              "evm-api/user-flow-walkthrough",
+              "evm-api/authentication",
+              "evm-api/error-codes",
+              {
+                "group": "Public",
+                "pages": [
+                  "evm-api/restful-api/public/system-maintenance-status"
+                ]
+              },
+              {
+                "group": "Private",
+                "pages": [
+                  "evm-api/restful-api/private/create-order",
+                  "evm-api/restful-api/private/create-batch-order",
+                  "evm-api/restful-api/private/edit-order",
+                  "evm-api/restful-api/private/cancel-order",
+                  "evm-api/restful-api/private/batch-cancel-orders",
+                  "evm-api/restful-api/private/cancel-orders-by-order-id",
+                  "evm-api/restful-api/private/get-order",
+                  "evm-api/restful-api/private/get-order-by-client-id",
+                  "evm-api/restful-api/private/get-orders",
+                  "evm-api/restful-api/private/orderbook-snapshot",
+                  "evm-api/restful-api/private/get-kline",
+                  "evm-api/restful-api/private/get-trades-order",
+                  "evm-api/restful-api/private/get-trades",
+                  "evm-api/restful-api/private/get-trade",
+                  "evm-api/restful-api/private/get-one-position-info",
+                  "evm-api/restful-api/private/get-funding-fee-history",
+                  "evm-api/restful-api/private/update-leverage-setting",
+                  "evm-api/restful-api/private/get-liquidate-positions",
+                  "evm-api/restful-api/private/get-liquidated-positions-2",
+                  "evm-api/restful-api/private/claim-liquidated-positions",
+                  "evm-api/restful-api/private/claim-from-insurance-fraud",
+                  "evm-api/restful-api/private/get-current-holding",
+                  "evm-api/restful-api/private/get-account-information",
+                  "evm-api/restful-api/private/get-user-statistics",
+                  "evm-api/restful-api/private/set-maintainance",
+                  "evm-api/restful-api/private/get-asset-history",
+                  "evm-api/restful-api/private/get-daily-user-volume",
+                  "evm-api/restful-api/private/get-user-volume-statistics",
+                  "evm-api/restful-api/private/get-pnl",
+                  "evm-api/restful-api/private/get-trading-info",
+                  "evm-api/restful-api/private/get-trading-key",
+                  "evm-api/restful-api/private/add-ip-restriction",
+                  "evm-api/restful-api/private/remove-trading-key",
+                  "evm-api/restful-api/private/set-trading-key",
+                  "evm-api/restful-api/private/get-ip",
+                  "evm-api/restful-api/private/get-all-notifications",
+                  "evm-api/restful-api/private/get-unread-notifications",
+                  "evm-api/restful-api/private/set-read",
+                  "evm-api/restful-api/private/set-all"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Websocket API",
+            "pages": [
+              "evm-api/websocket-api/introduction",
+              "evm-api/websocket-api/ping-pong",
+              "evm-api/websocket-api/auth",
+              {
+                "group": "Public",
+                "pages": [
+                  "evm-api/websocket-api/public/request-orderbook",
+                  "evm-api/websocket-api/public/orderbook",
+                  "evm-api/websocket-api/public/order-book-update",
+                  "evm-api/websocket-api/public/trade",
+                  "evm-api/websocket-api/public/24-hour-ticker",
+                  "evm-api/websocket-api/public/24-hours-tickers",
+                  "evm-api/websocket-api/public/bbo",
+                  "evm-api/websocket-api/public/bbos",
+                  "evm-api/websocket-api/public/k-line",
+                  "evm-api/websocket-api/public/index-price",
+                  "evm-api/websocket-api/public/index-prices",
+                  "evm-api/websocket-api/public/mark-price",
+                  "evm-api/websocket-api/public/mark-prices",
+                  "evm-api/websocket-api/public/open-interest",
+                  "evm-api/websocket-api/public/estimated-funding-rate",
+                  "evm-api/websocket-api/public/liquidation-push"
+                ]
+              },
+              {
+                "group": "Private",
+                "pages": [
+                  "evm-api/websocket-api/private/balance",
+                  "evm-api/websocket-api/private/execution-report",
+                  "evm-api/websocket-api/private/execution-report-single",
+                  "evm-api/websocket-api/private/notifications",
+                  "evm-api/websocket-api/private/position-push",
+                  "evm-api/websocket-api/private/liquidation-account-push",
+                  "evm-api/websocket-api/private/liquidator"
+                ]
+              },
+              "evm-api/websocket-api/error-response"
+            ]
+          },
+          "evm-api/release-notes"
+       ]
       }
     ],
     "footerSocials":
