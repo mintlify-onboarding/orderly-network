@@ -144,6 +144,32 @@
           "near-api/authentication",
           "near-api/error-codes",
           {
+            "group": "RESTful API",
+            "pages": [
+              {
+                "group": "Public",
+                "pages": [
+                  "near-api/restful-api/public/get-leverage-configuration",
+                  "near-api/restful-api/public/system",
+                  "near-api/restful-api/public/exchange-information",
+                  "near-api/restful-api/public/token-info",
+                  "near-api/restful-api/public/available-symbols",
+                  "near-api/restful-api/public/fee-information",
+                  "near-api/restful-api/public/future-fee-information",
+                  "near-api/restful-api/public/market-trades",
+                  "near-api/restful-api/public/volume-statistics",
+                  "near-api/restful-api/public/get-list-of-brokers",
+                  "near-api/restful-api/public/funding-rate-1",
+                  "near-api/restful-api/public/funding-rate-2",
+                  "near-api/restful-api/public/funding-rate-3",
+                  "near-api/restful-api/public/futures-1",
+                  "near-api/restful-api/public/futures-2",
+                  "near-api/restful-api/public/liquidation-1"
+                ]
+              }
+            ]
+          },
+          {
             "group": "Websocket API",
             "pages": [
               "near-api/websocket-api/introduction",
@@ -152,9 +178,37 @@
               {
                 "group": "Public",
                 "pages": [
-                  "near-api/websocket-api/public/request-orderbook"
+                  "near-api/websocket-api/public/request-orderbook",
+                  "near-api/websocket-api/public/orderbook",
+                  "near-api/websocket-api/public/order-book-update",
+                  "near-api/websocket-api/public/trade",
+                  "near-api/websocket-api/public/24-hour-ticker",
+                  "near-api/websocket-api/public/24-hours-tickers",
+                  "near-api/websocket-api/public/bbo",
+                  "near-api/websocket-api/public/bbos",
+                  "near-api/websocket-api/public/k-line",
+                  "near-api/websocket-api/public/index-price",
+                  "near-api/websocket-api/public/index-prices",
+                  "near-api/websocket-api/public/mark-price",
+                  "near-api/websocket-api/public/mark-prices",
+                  "near-api/websocket-api/public/open-interest",
+                  "near-api/websocket-api/public/estimated-funding-rate",
+                  "near-api/websocket-api/public/liquidation-push"
                 ]
-              }
+              },
+              {
+                "group": "Private",
+                "pages": [
+                  "near-api/websocket-api/private/balance",
+                  "near-api/websocket-api/private/execution-report",
+                  "near-api/websocket-api/private/execution-report-single",
+                  "near-api/websocket-api/private/notifications",
+                  "near-api/websocket-api/private/position-push",
+                  "near-api/websocket-api/private/liquidation-account-push",
+                  "near-api/websocket-api/private/liquidator"
+                ]
+              },
+              "near-api/websocket-api/error-response"
             ]
           },
           "near-api/release-notes"
