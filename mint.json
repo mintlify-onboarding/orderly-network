@@ -276,7 +276,32 @@
               {
                 "group": "Public",
                 "pages": [
-                  "evm-api/restful-api/public/system-maintenance-status"
+                  "evm-api/restful-api/public/system-maintenance-status",
+                  "evm-api/restful-api/public/get-faucet-usdcs",
+                  "evm-api/restful-api/public/get-registration-nonce",
+                  "evm-api/restful-api/public/get-account",
+                  "evm-api/restful-api/public/register-account",
+                  "evm-api/restful-api/public/get-orderly-key",
+                  "evm-api/restful-api/public/add-orderly-key",
+                  "evm-api/restful-api/public/exchange-information",
+                  "evm-api/restful-api/public/token-info",
+                  "evm-api/restful-api/public/get-vault-balances",
+                  "evm-api/restful-api/public/available-symbols",
+                  "evm-api/restful-api/public/future-fees-information",
+                  "evm-api/restful-api/public/get-leverage-configuration",
+                  "evm-api/restful-api/public/market-trades",
+                  "evm-api/restful-api/public/volume-statistics",
+                  "evm-api/restful-api/public/get-list-of-brokers",
+                  "evm-api/restful-api/public/predicted-funding-rate",
+                  "evm-api/restful-api/public/predicted-funding-rate-2",
+                  "evm-api/restful-api/public/funding-rate-3",
+                  "evm-api/restful-api/public/futures-1",
+                  "evm-api/restful-api/public/liquidation-1",
+                  "evm-api/restful-api/public/liquidation-2",
+                  "evm-api/restful-api/public/insurance",
+                  "evm-api/restful-api/public/get-vault-chain-config",
+                  "evm-api/restful-api/public/trading-view-history",
+                  "evm-api/restful-api/public/get-tradingview-symbol-info"
                 ]
               },
               {
